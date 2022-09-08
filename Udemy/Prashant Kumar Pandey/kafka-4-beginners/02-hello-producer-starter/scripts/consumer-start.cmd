@@ -1,0 +1,1 @@
+%KAFKA_HOME%\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9093 --topic hello-producer-topic --from-beginning
