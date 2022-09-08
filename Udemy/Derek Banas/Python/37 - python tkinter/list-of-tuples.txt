@@ -1,0 +1,1 @@
+[('mark', 'current', '1.0'), ('text', 'Some ', '1.0'), ('mark', 'tk::anchor1', '1.5'), ('tagon', 'bt', '1.5'), ('tagon', 'sel', '1.5'), ('text', 'random', '1.5'), ('tagoff', 'sel', '1.11'), ('tagoff', 'bt', '1.11'), ('mark', 'insert', '1.11'), ('text', ' words', '1.11')]

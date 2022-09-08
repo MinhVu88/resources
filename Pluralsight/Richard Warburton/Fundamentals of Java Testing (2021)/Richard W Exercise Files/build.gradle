@@ -1,0 +1,27 @@
+
+plugins {
+    id 'java'
+}
+
+defaultTasks 'clean', 'build', 'test'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.0'
+    testCompile group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
+
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.2'
+    implementation group: 'com.google.inject', name: 'guice', version: '4.2.3'
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.2.9.RELEASE'
+    implementation group: 'org.mockito', name: 'mockito-core', version: '3.5.13'
+}
+
+test {
+    useJUnitPlatform()
+}

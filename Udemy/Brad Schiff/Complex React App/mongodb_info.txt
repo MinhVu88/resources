@@ -1,0 +1,3 @@
+start mongodb in cmd: mongod.exe --dbpath="C:\Users\Administrator\mongodb_data"
+MongoDB User account (username & pass): mainUser | 17Maynard04Keenan1964
+MongoDB connection string: mongodb+srv://mainUser:17Maynard04Keenan1964@cluster0-mlfhu.mongodb.net/ReactCourse?retryWrites=true&w=majority
